@@ -43,8 +43,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
+.bloc-md{
+	padding:50px;
+}
+.bloc-sm{
+	padding:20px 50px;
 }
 
 
@@ -123,20 +126,13 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
-.btn .caret{
-	margin:0 0 0 5px}
 
 
 
 
+
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -206,6 +202,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-1-style{
 	width:100%;
 }
+.row-style{
+	width:76.7%;
+}
+.img-style{
+	width:200px;
+	height:200px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -218,17 +221,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-dark-jungle-green{
 	color:#212121!important;
-}
-
-/* Button colour styles */
-
-.btn-white{
-	background:#FFFFFF;
-	color:rgba(0,0,0,.5)!important;
-}
-.btn-white:hover{
-	background:#cccccc!important;
-	color:rgba(0,0,0,.5)!important;
 }
 
 
